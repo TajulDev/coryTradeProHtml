@@ -41,7 +41,7 @@ a {
 }
 
 .container {
-    max-width: 1160px;
+    max-width: 1060px;
 }
 
 .comm_para {
@@ -64,7 +64,7 @@ a {
 .header_sec {
     color: #FCFCFD;
     font-family: var(--dm);
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -2.4px;
@@ -94,7 +94,7 @@ header .nav-link {
     color: #FCFCFD;
     text-align: center;
     font-family: var(--dm);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
@@ -135,9 +135,9 @@ header .nav-link:focus,
 .hero h1 {
     /* color: var(--text-text-primary-01, #FCFCFD); */
     font-family: var(--dm);
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
-    line-height: 84px;
+    line-height: 70px;
     letter-spacing: -3.84px;
     margin-bottom: 25px;
 }
@@ -381,7 +381,7 @@ header .nav-link:focus,
 .timer h3 {
     color: var(--text-text-primary-01, #FCFCFD);
     font-family: var(--dm);
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: 2.4px;
 }
@@ -593,7 +593,7 @@ header .nav-link:focus,
 .feature_box::before {
     position: absolute;
     content: "";
-    left: 180px;
+    left: 144px;
     top: 30%;
     height: 50%;
     border-left: 1px dashed #00C076;
@@ -607,7 +607,7 @@ header .nav-link:focus,
     position: absolute;
     content: url("../images/circle.png");
     top: 50%;
-    left: 15%;
+    left: 13%;
 }
 
 .pro_trade_bottom {
@@ -711,7 +711,7 @@ header .nav-link:focus,
 .sort_trade_inner::before {
     position: absolute;
     content: "";
-    left: 180px;
+    left: 144px;
     top: 20.9%;
     height: 66.9%;
     border-left: 1px dashed #00C076;
@@ -898,8 +898,8 @@ header .nav-link:focus,
     position: absolute;
     content: "";
     bottom: -8%;
-    width: 68.8%;
-    left: 14%;
+    width: 66.8%;
+    left: 15%;
     border-bottom: 1px solid #0DE85C;
 }
 
