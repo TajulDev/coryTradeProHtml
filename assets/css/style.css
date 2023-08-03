@@ -665,7 +665,7 @@ header .nav-link:focus,
     z-index: 99999;
 }
 
-.sort_trade_box p{
+.sort_trade_box p {
     font-weight: 400;
 }
 
@@ -1019,28 +1019,37 @@ footer {
     padding-left: 100px;
 }
 
-.footer_form {
-    background-color: #272A3E;
-    border: 2px solid var(--border-divider-border-secondary, #2F344C);
+.foo_inner form {
+    display: flex;
+    align-items: center;
     border-radius: 90px;
-    padding: 8px 12px;
+    border: 2px solid var(--border-divider-border-secondary, #2F344C);
+    padding: 8px;
 }
 
-.footer_form input {
-    background-color: #272A3E !important;
-    border-radius: 90px !important;
+.foo_inner form input {
+    background-color: transparent;
+    width: 100%;
     border: none;
-    color: #777E90;
-    padding: 0 5px;
+    color: #a3a7b1;
+    padding-left: 10px;
 }
 
-.footer_form input::placeholder {
+.foo_inner form input::placeholder {
     color: var(--text-text-secondary-01, #777E90);
     font-family: var(--poppins);
-    font-size: 10px;
+    font-size: 12px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
 }
+
+.foo_inner form button {
+    background-color: transparent;
+    object-fit: contain;
+    border: none;
+}
+
 
 input:focus-visible {
     outline: none;
@@ -1078,3 +1087,19 @@ input:focus-visible {
 }
 
 /* Footer End */
+
+
+
+/* Teams & condition Page Start */
+.terms{
+    padding: 65px 0;
+}
+
+.terms p{
+    font-size: 16px;
+}
+
+.terms strong{
+    font-size: 17px;
+}
+/* Teams & condition Page End */
