@@ -80,7 +80,7 @@ header .navbar {
 header p {
     color: var(--text-text-secondary-02, #B1B5C3);
     font-family: var(--poppins);
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.28px;
@@ -102,6 +102,7 @@ header .nav-link {
     border: 1px solid var(--border-divider-border-primary, #373B58);
     background: var(--surface-surface-secondary-01, #333751);
     padding: 6px 12px;
+    white-space: nowrap;
 }
 
 .navbar-toggler {
@@ -297,7 +298,7 @@ header .nav-link:focus,
     margin-bottom: 10px;
     color: var(--text-text-primary-01, #FCFCFD);
     font-family: var(--poppins);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 25.447px;
 }
