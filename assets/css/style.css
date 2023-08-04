@@ -58,7 +58,7 @@ a {
 }
 
 .mb_live {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .header_sec {
@@ -271,6 +271,7 @@ header .nav-link:focus,
     border-collapse: inherit;
     border-radius: 8px !important;
     border-spacing: 0 10px;
+    white-space: nowrap;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -282,10 +283,10 @@ header .nav-link:focus,
 .table_offer th {
     color: var(--text-text-primary-01, #FCFCFD);
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
-    margin-bottom: 24px;
-    padding: 10px;
+    /* margin-bottom: 24px; */
+    /* padding: 10px; */
 }
 
 .table_offer tbody tr {
@@ -312,7 +313,7 @@ header .nav-link:focus,
     border-top: 1px solid #2F344C;
     border-bottom: 1px solid #2F344C;
     background: var(--surface-surface-secondary-02, #272A3E);
-    padding: 10px;
+    padding: 5px;
 }
 
 .table_offer td:first-child {
@@ -335,10 +336,10 @@ header .nav-link:focus,
 .tax_token h3 {
     color: var(--text-text-primary-01, #FCFCFD);
     font-family: var(--dm);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
 }
 
 .live_line {
@@ -356,7 +357,7 @@ header .nav-link:focus,
 .tax_token p {
     color: var(--text-text-primary-01, #FCFCFD);
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
@@ -381,14 +382,14 @@ header .nav-link:focus,
 .timer h3 {
     color: var(--text-text-primary-01, #FCFCFD);
     font-family: var(--dm);
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 700;
     letter-spacing: 2.4px;
 }
 
-.time_in {
+/* .time_in {
     gap: 30px;
-}
+} */
 
 .timer p {
     color: var(--text-text-secondary-01, #777E90);
@@ -401,7 +402,7 @@ header .nav-link:focus,
 
 .progress,
 .progress-stacked {
-    --bs-progress-height: 32px;
+    --bs-progress-height: 25px;
     border-radius: 15px;
     --bs-progress-bg: #87A8F9;
     --bs-progress-bar-bg: #3772FF;
@@ -432,12 +433,11 @@ header .nav-link:focus,
 .currency ul li a {
     color: #FCFCFD !important;
     font-family: var(--dm);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
-    padding: 10px 25px;
-
+    padding: 8px 22px;
 }
 
 .currency ul li a:hover {
@@ -1095,7 +1095,7 @@ input:focus-visible {
 }
 
 .terms p{
-    font-size: 16px;
+    /* font-size: 16px; */
     text-align: justify;
 }
 
