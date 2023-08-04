@@ -147,15 +147,19 @@
         overflow-x: scroll;
     }
 
-    /* .tax_token p {
-        font-size: 14px;
-    } */
-/* 
+    .presale_left_bg::before{
+        width: 100%;
+        overflow: hidden;
+    }
 
-    .tax_token h3 {
-        font-size: 12px;
-    } */
+    .presale_right_bg::after{
+        width: 100%;
+        overflow: hidden;
+    }
 
+    .presale_bottom_bg::after{
+
+    }
 
     .currency .nav {
         flex-direction: column;
@@ -165,6 +169,8 @@
 
     .live_reverse {
         flex-direction: column-reverse;
+        position: relative;
+        z-index: 99999;
     }
 
     .wallet {
@@ -316,11 +322,21 @@
     }
 
     .presale_live_bg::before {
-        position: absolute;
-        top: 10%;
+        display: none;
+        /* top: 10%;
         left: 50%;
         width: 100%;
-        overflow: hidden;
+        overflow: hidden; */
+    }
+
+    .platform_inner_bg::before{
+        
+        display: none;
+    }
+
+    .platform_inner_bg::after{
+        
+        display: none;
     }
 
     .presale_live::after {
@@ -345,6 +361,7 @@
     .platform_bg::after {
         right: 50%;
         top: 30%;
+        display: none;
     }
 
     .platform_bg::before {
