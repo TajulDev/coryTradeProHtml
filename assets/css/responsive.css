@@ -315,6 +315,19 @@
         background-image: none;
     }
 
+    .presale_live_bg::before {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .presale_live::after {
+        width: 100%;
+        overflow: hidden;
+    }
+
     /* 
     .sort_trade_upper {
         padding-bottom: 50px;
