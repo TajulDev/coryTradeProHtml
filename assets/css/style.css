@@ -255,7 +255,7 @@ header .nav-link:focus,
 
 
 .presale_live_inner {
-    padding: 26px 26px 26px 26px;
+    padding: 20px;
     background-color: #25283B;
     border: 1px solid #2F344C;
     border-radius: 24px;
@@ -357,7 +357,7 @@ header .nav-link:focus,
 .tax_token p {
     color: var(--text-text-primary-01, #FCFCFD);
     font-family: var(--poppins);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -546,7 +546,7 @@ header .nav-link:focus,
 /* key Featuer Start */
 
 .key_feature {
-    padding-bottom: 65px;
+    padding-bottom: 120px;
     position: relative;
     z-index: 99999;
 }
@@ -794,7 +794,7 @@ header .nav-link:focus,
 .platform::before {
     position: absolute;
     left: 10%;
-    top: 10%;
+    top: 18%;
     z-index: -9999;
     content: '';
     background: transparent;
@@ -807,7 +807,7 @@ header .nav-link:focus,
 .platform::after {
     position: absolute;
     right: 10%;
-    top: 10%;
+    top: 18%;
     z-index: -9999;
     content: '';
     background: transparent;
@@ -825,7 +825,7 @@ header .nav-link:focus,
 
 .platform_bg::before {
     position: absolute;
-    left: 10%;
+    left: 18%;
     bottom: 0;
     z-index: -9999;
     content: '';
@@ -840,7 +840,7 @@ header .nav-link:focus,
 .platform_bg::after {
     position: absolute;
     bottom: 0;
-    right: 10%;
+    right: 18%;
     z-index: -9999;
     content: '';
     background: transparent;

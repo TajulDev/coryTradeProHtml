@@ -3,7 +3,7 @@
     .presale_live::before {
         left: 20%;
     }
-    
+
     .presale_live::after {
         right: 20%;
     }
@@ -11,6 +11,7 @@
     .key_feature::before {
         right: 30%;
     }
+
     .pro_trades::before {
         left: 33%;
         top: 35%;
@@ -19,23 +20,25 @@
     .sort_trade::before {
         left: 25%;
     }
+
     .sort_trade::after {
         right: 25%;
     }
 
     .platform::before {
-        left: 21%;
+        left: 31%;
     }
 
     .platform::after {
-        right: 21%;
+        right: 31%;
     }
 
     .platform_bg::before {
-        left: 21%;
+        left: 31%;
     }
+
     .platform_bg::after {
-        right: 21%;
+        right: 31%;
     }
 
 }
@@ -120,10 +123,11 @@
 }
 
 @media only screen and (max-width:768px) {
-   
+
     header .nav-link {
         margin-top: 15px;
     }
+
     .hero {
         padding-top: 40px;
         background-position: right top;
@@ -159,7 +163,7 @@
         text-align: center;
     }
 
-    .live_reverse{
+    .live_reverse {
         flex-direction: column-reverse;
     }
 
@@ -197,13 +201,7 @@
         font-size: 16px;
     }
 
-    .platform::before {
-        display: none;
-    }
-
-    .platform::after {
-        display: none;
-    }
+   
 
     .pro_trades {
         margin-top: 70px;
@@ -213,7 +211,7 @@
         padding-top: 0px;
     }
 
-    
+
     .sort_trade {
         background-image: none;
         padding-top: 70px;
@@ -300,12 +298,12 @@
 
     /* Footer End */
 
-    .terms p{
+    .terms p {
         font-size: 14px;
         text-align: justify;
     }
-    
-    .terms strong{
+
+    .terms strong {
         font-size: 16px;
     }
 }
@@ -316,15 +314,24 @@
     .back_img {
         background-image: none;
     }
-/* 
+
+    /* 
     .sort_trade_upper {
         padding-bottom: 50px;
     } */
 
-   
+    .platform::before {
+        display: none;
+    }
+
+    .platform::after {
+        right: 50%;
+        top: 30%;
+    }
 
     .platform_bg::after {
-        display: none;
+        right: 50%;
+        top: 30%;
     }
 
     .platform_bg::before {
@@ -335,19 +342,20 @@
         padding-bottom: 0;
     }
 
-  
+
     .stage::before {
         display: none;
     }
+
     .stage_inner::before {
         display: none;
     }
 
-    .foo_inner{
+    .foo_inner {
         text-align: center;
     }
 
-    .footer_bottom{
+    .footer_bottom {
         flex-direction: column;
         gap: 10px;
     }
