@@ -1045,8 +1045,8 @@ header .nav-link:focus,
     position: absolute;
     content: "";
     bottom: -8%;
-    width: 66.8%;
-    left: 15%;
+    width: 70.9%;
+    left: 13%;
     border-bottom: 1px solid #0DE85C;
 }
 
@@ -1060,7 +1060,7 @@ header .nav-link:focus,
     background: var(--surface-surface-secondary-02, #272A3E);
     padding: 35px 26px 35px 60px;
     position: relative;
-    width: 356px;
+    /* width: 356px; */
     z-index: -9999;
     box-shadow: -3px 3px 5px 0px rgba(15, 15, 15, 0.10);
     -webkit-box-shadow: -3px 3px 5px 0px rgba(15, 15, 15, 0.10);
