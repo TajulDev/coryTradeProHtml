@@ -321,6 +321,9 @@
         background-image: none;
     }
 
+    header p {
+        font-size: 15px;
+    }
     .presale_live_bg::before {
         display: none;
         /* top: 10%;

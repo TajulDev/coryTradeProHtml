@@ -58,7 +58,7 @@ a {
 }
 
 .mb_live {
-    margin-bottom: 64px;
+    margin-bottom: 45px;
 }
 
 .header_sec {
@@ -77,6 +77,19 @@ a {
 header .navbar {
     padding: 20px 0 !important;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+a.brand-logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+a.brand-logo:hover {
+    color: #fff;
 }
 
 header p {
@@ -226,12 +239,12 @@ header .nav-link:focus,
     z-index: -9999;
 }
 
-.presale_bottom_bg{
+.presale_bottom_bg {
     position: relative;
     z-index: 9999;
 }
 
-.presale_bottom_bg::after{
+.presale_bottom_bg::after {
     position: absolute;
     bottom: 30%;
     left: 50%;
@@ -271,12 +284,12 @@ header .nav-link:focus,
     box-shadow: 0 0 348px 218px #4c5379;
 }
 
-.presale_left_bg{
+.presale_left_bg {
     position: relative;
     z-index: 9999;
 }
 
-.presale_left_bg::before{
+.presale_left_bg::before {
     position: absolute;
     left: 10%;
     top: 18%;
@@ -289,12 +302,12 @@ header .nav-link:focus,
     box-shadow: 0 0 348px 218px #4c5379;
 }
 
-.presale_right_bg{
+.presale_right_bg {
     position: relative;
     z-index: 9999;
 }
 
-.presale_right_bg::after{
+.presale_right_bg::after {
     position: absolute;
     right: 10%;
     top: 18%;
@@ -428,7 +441,7 @@ header .nav-link:focus,
 }
 
 .presale {
-    margin-bottom: 52px;
+    margin-bottom: 37px;
     position: relative;
     z-index: 99999;
 }
@@ -460,39 +473,61 @@ header .nav-link:focus,
     letter-spacing: 2.4px;
 }
 
-/* .time_in {
-    gap: 30px;
-} */
 
 .timer p {
-    color: var(--text-text-secondary-01, #777E90);
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
-/* progress Bar Start*/
+/* Presale Token progress Bar Start*/
 
-.progress,
-.progress-stacked {
+.timer .progress,
+.timer .progress-stacked {
+    --bs-progress-height: 90px;
+    border-radius: 75px;
+    --bs-progress-bg: #87A8F9;
+    --bs-progress-bar-bg: #3772FF;
+}
+
+.timer .progress-bar {
+    border-radius: 90px;
+    background-color: #3772FF;
+}
+
+/* Presale Token progress Bar End*/
+
+/* Current Stage progress Bar Start*/
+
+.unit .progress,
+.unit .progress-stacked {
     --bs-progress-height: 25px;
     border-radius: 15px;
     --bs-progress-bg: #87A8F9;
     --bs-progress-bar-bg: #3772FF;
 }
 
-.progress-bar {
+.unit .progress-bar {
     border-radius: 15px;
     background-color: #3772FF;
 }
 
-/* progress Bar End*/
+/* Current Stage progress Bar End*/
 
-.unit p {
-    color: var(--text-text-primary-02, #E6E8EC);
+.unit h5 {
+    color: var(--text-text-active, #00C076);
     font-family: var(--poppins);
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.unit span {
+    display: block;
+    color: var(--text-text-active, #00C076);
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
 
 .currency .nav {
@@ -506,34 +541,42 @@ header .nav-link:focus,
 .currency ul li a {
     color: #FCFCFD !important;
     font-family: var(--dm);
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
-    padding: 8px 22px;
+    padding: 12px 84px;
 }
 
 .currency ul li a:hover {
     opacity: .9;
 }
 
-.nav-pills .nav-link {
+.currency .nav-pills .nav-link {
     border: 2px solid #373B58 !important;
     border-radius: 8px;
     background: #333751;
 }
 
-.nav-pills .nav-link.active,
+.currency .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link a .active a {
-    border: 2px solid var(--surface-surface-brand-01, #3772FF);
     background: var(--surface-surface-brand-01, #3772FF);
+    border: 2px solid #3772FF !important;
 }
 
-.unit h5 {
+.currency p {
     color: var(--text-text-primary-01, #FCFCFD);
-    font-family: var(--poppins);
-    font-size: 18px;
-    font-weight: 600;
+    font-family: var(--dm);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 2px solid #373B58;
+    background: var(--surface-surface-secondary-01, #333751);
+    padding: 12px ;
+    box-shadow: 0px 4px 16px -8px rgba(15, 15, 15, 0.10);
+    white-space: nowrap;
 }
 
 .change_currency {
@@ -565,7 +608,10 @@ header .nav-link:focus,
 }
 
 .change_currency p {
-    font-size: 18px;
+    color: var(--text-text-primary-02, #E6E8EC);
+    font-family: var(--poppins);
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .wallet {
@@ -928,12 +974,12 @@ header .nav-link:focus,
     padding-bottom: 44px;
 }
 
-.platform_inner_bg{
+.platform_inner_bg {
     position: relative;
     z-index: 99999;
 }
 
-.platform_inner_bg::before{
+.platform_inner_bg::before {
     position: absolute;
     top: 50%;
     left: 18%;
@@ -946,7 +992,7 @@ header .nav-link:focus,
     box-shadow: 0 0 348px 218px #4c5379;
 }
 
-.platform_inner_bg::after{
+.platform_inner_bg::after {
     position: absolute;
     top: 50%;
     right: 18%;
@@ -1192,18 +1238,17 @@ input:focus-visible {
 
 
 /* Teams & condition Page Start */
-.terms{
+.terms {
     padding: 65px 0;
 }
 
-.terms p{
+.terms p {
     /* font-size: 16px; */
     text-align: justify;
 }
 
-.terms strong{
+.terms strong {
     font-size: 17px;
 }
+
 /* Teams & condition Page End */
-
-
