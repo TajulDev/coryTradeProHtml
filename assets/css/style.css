@@ -202,7 +202,7 @@ header .nav-link:focus,
 
 .presale_live {
     padding-top: 86px;
-    padding-bottom: 120px;
+    padding-bottom: 72px;
     position: relative;
     z-index: 9999;
 }
@@ -858,7 +858,7 @@ header .nav-link:focus,
 /* Platform Section Start */
 
 .platform {
-    padding-bottom: 120px;
+    padding-bottom: 116px;
     position: relative;
     z-index: 99999;
 }
@@ -1205,3 +1205,5 @@ input:focus-visible {
     font-size: 17px;
 }
 /* Teams & condition Page End */
+
+
