@@ -517,7 +517,7 @@ header .nav-link:focus,
 .unit h5 {
     color: var(--text-text-active, #00C076);
     font-family: var(--poppins);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -525,7 +525,7 @@ header .nav-link:focus,
     display: block;
     color: var(--text-text-active, #00C076);
     font-family: var(--poppins);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-align: center;
 }
@@ -541,7 +541,7 @@ header .nav-link:focus,
 .currency ul li a {
     color: #FCFCFD !important;
     font-family: var(--dm);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 16px;
     text-transform: uppercase;
@@ -567,7 +567,7 @@ header .nav-link:focus,
 .currency p {
     color: var(--text-text-primary-01, #FCFCFD);
     font-family: var(--dm);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.2;
     text-transform: uppercase;

@@ -406,4 +406,9 @@
     header p {
         font-size: 12px
     }
+
+    .currency p {
+        font-size: 10px;
+        padding: 5px;
+    }
 }
