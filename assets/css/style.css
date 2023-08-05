@@ -576,7 +576,7 @@ header .nav-link:focus,
     background: var(--surface-surface-secondary-01, #333751);
     padding: 12px ;
     box-shadow: 0px 4px 16px -8px rgba(15, 15, 15, 0.10);
-    white-space: nowrap;
+   
 }
 
 .change_currency {

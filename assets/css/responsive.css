@@ -317,6 +317,15 @@
 
 @media only screen and (max-width:425px) {
 
+    .currency p {
+        font-size: 12px;
+    }
+
+    .currency ul li a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
     .back_img {
         background-image: none;
     }
@@ -326,10 +335,6 @@
     }
     .presale_live_bg::before {
         display: none;
-        /* top: 10%;
-        left: 50%;
-        width: 100%;
-        overflow: hidden; */
     }
 
     .platform_inner_bg::before{
@@ -347,10 +352,7 @@
         overflow: hidden;
     }
 
-    /* 
-    .sort_trade_upper {
-        padding-bottom: 50px;
-    } */
+
 
     .platform::before {
         display: none;
