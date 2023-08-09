@@ -73,6 +73,10 @@
         font-size: 40px;
     }
 
+    .currency .nav {
+        gap: 14px;
+    }
+
     .sort_trade::before {
         width: 100%;
         overflow: hidden;
@@ -141,16 +145,26 @@
 
     .key_save {
         flex-direction: column;
+        gap: 60px;
+        margin-top: 8px;
     }
 
+
     .presale_live {
-        padding-top: 50px;
+        /* padding-top: 50px; */
         padding-bottom: 50px;
     }
 
     .table_offer__outer {
         overflow-x: scroll;
     }
+    .presale_left_bg {
+        height:inherit
+    }
+    .presale_right_bg{
+        height:inherit;
+    }
+
 
     .presale_left_bg::before{
         width: 100%;
@@ -323,6 +337,10 @@
         font-size: 12px;
     }
 
+    .timer p {
+        font-size: 14px;
+    }
+
     .currency ul li a {
         font-size: 16px;
         padding: 10px;
@@ -396,6 +414,10 @@
         text-align: center;
     }
 
+    .quickLink{
+        flex-direction: column;
+    }
+
     .footer_bottom {
         flex-direction: column;
         gap: 10px;
@@ -416,5 +438,9 @@
     .currency p {
         font-size: 10px;
         padding: 5px;
+    }
+
+    .timer p {
+        font-size: 12px;
     }
 }
