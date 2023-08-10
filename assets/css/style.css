@@ -501,7 +501,7 @@ header .nav-link:focus,
 
 .timer .progress,
 .timer .progress-stacked {
-    --bs-progress-height: 63px;
+    --bs-progress-height: 56px;
     border-radius: 75px;
     --bs-progress-bg: #87A8F9;
     --bs-progress-bar-bg: #3772FF;
