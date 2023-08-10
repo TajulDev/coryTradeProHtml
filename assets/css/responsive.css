@@ -77,9 +77,9 @@
         gap: 9px;
     }
 
-    .timer .progress, .timer .progress-stacked {
+    /* .timer .progress, .timer .progress-stacked {
         --bs-progress-height: 80px;
-    }
+    } */
 
     .sort_trade::before {
         width: 100%;
