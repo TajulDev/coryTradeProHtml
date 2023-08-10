@@ -460,7 +460,7 @@ header .nav-link:focus,
     margin-bottom: 37px;
     position: relative;
     z-index: 99999;
-    margin-top: 11px;
+    margin-top: 3px;
 }
 
 .live_reverse {
