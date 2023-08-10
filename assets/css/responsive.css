@@ -162,20 +162,22 @@
     .table_offer__outer {
         overflow-x: scroll;
     }
+
     .presale_left_bg {
-        height:inherit
+        height: inherit
     }
-    .presale_right_bg{
-        height:inherit;
+
+    .presale_right_bg {
+        height: inherit;
     }
 
 
-    .presale_left_bg::before{
+    .presale_left_bg::before {
         width: 100%;
         overflow: hidden;
     }
 
-    .presale_right_bg::after{
+    .presale_right_bg::after {
         width: 100%;
         overflow: hidden;
     }
@@ -227,7 +229,7 @@
         font-size: 16px;
     }
 
-   
+
 
     .pro_trades {
         margin-top: 70px;
@@ -357,17 +359,18 @@
     header p {
         font-size: 15px;
     }
+
     .presale_live_bg::before {
         display: none;
     }
 
-    .platform_inner_bg::before{
-        
+    .platform_inner_bg::before {
+
         display: none;
     }
 
-    .platform_inner_bg::after{
-        
+    .platform_inner_bg::after {
+
         display: none;
     }
 
@@ -376,10 +379,32 @@
         overflow: hidden;
     }
 
+    .key_feature::before {
+        top: 22%;
+        right: 42%;
+    }
 
+
+    .pro_trades::before {
+        top: 65%;
+    }
+
+
+    .sort_trade::before {
+        left: 10%;
+        top: 99%;
+    }
+
+    .sort_trade::after {
+        top: 90%;
+        right: 50%;
+    }
 
     .platform::before {
-        display: none;
+        width: 100%;
+        overflow: hidden;
+        left: 43%;
+        top: 71%;
     }
 
     .platform::after {
@@ -418,7 +443,7 @@
         text-align: center;
     }
 
-    .quickLink{
+    .quickLink {
         flex-direction: column;
     }
 
