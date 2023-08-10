@@ -460,7 +460,7 @@ header .nav-link:focus,
     margin-bottom: 37px;
     position: relative;
     z-index: 99999;
-    margin-top: 3px;
+    margin-top: 2px;
 }
 
 .live_reverse {
@@ -1231,7 +1231,7 @@ footer {
 
 .foo_inner {
     padding-top: 60px;
-    padding-bottom: 24px;
+    padding-bottom: 20px;
 }
 
 .foo_inner ul li {
