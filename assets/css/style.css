@@ -58,7 +58,7 @@ a {
 }
 
 .mb_live {
-    margin-bottom: 33px;
+    margin-bottom: 18px;
 }
 
 .header_sec {
@@ -501,7 +501,7 @@ header .nav-link:focus,
 
 .timer .progress,
 .timer .progress-stacked {
-    --bs-progress-height: 56px;
+    --bs-progress-height: 125px;
     border-radius: 75px;
     --bs-progress-bg: #87A8F9;
     --bs-progress-bar-bg: #3772FF;
